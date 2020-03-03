@@ -1,0 +1,64 @@
+@import "styles/vars.scss";
+
+.icon__role {
+  position: absolute;
+  
+  width: 15%;
+}
+
+.icon__role_buyer {
+  top: 41%;
+  left: 17%;
+  top: 30%;
+    left: 37%;
+}
+.icon__role_investor {
+  top: 35%;
+  left: 17%;
+}
+.icon__role_miner {
+  top: 31%;
+  left: 17%;
+}
+.icon__role_wallet {
+  top: 41%;
+  left: 17%;
+}
+.icon__role_seller {
+  top: 38%;
+  left: 17%;
+}
+.icon__role_news {
+  top: 37%;
+  left: 17%;
+}
+
+@media (min-width: $LARGE) {
+  .icon__role {
+    width: 25%;
+  }
+  .icon__role_buyer {
+    top: 30%;
+    left: 37%;
+  }
+  .icon__role_investor {
+    top: 27%;
+    left: 37%;
+  }
+  .icon__role_miner {
+    top: 26%;
+    left: 37%;
+  }
+  .icon__role_wallet {
+    top: 29%;
+    left: 38%;
+  }
+  .icon__role_seller {
+    top: 28%;
+    left: 38%;
+  }
+  .icon__role_news {
+    top: 28%;
+    left: 38%;
+  }
+}
