@@ -5,11 +5,13 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import React from "react"
+import React, { useState } from "react"
 import PropTypes from "prop-types"
 import { ScreenClassProvider, setConfiguration } from 'react-grid-system';
 
 import IntlProvider from 'locales/IntlProvider';
+
+import LANGS from 'shared/constants/langs';
 
 setConfiguration({ 
   gutterWidth: 0, 
@@ -18,6 +20,7 @@ setConfiguration({
 });
 
 const Layout = ({ children }) => {
+  const [lang, setLang] = useState(LANGS[0])
   // const data = useStaticQuery(graphql`
   //   query SiteTitleQuery {
   //     site {
@@ -29,9 +32,9 @@ const Layout = ({ children }) => {
   // `)
 
   return (
-    <IntlProvider>
+    <IntlProvider lang={lang}>
       <ScreenClassProvider>
-        {children}
+        {children(lang, setLang)}
       </ScreenClassProvider>
     </IntlProvider>
   )

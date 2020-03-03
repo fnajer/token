@@ -1,0 +1,42 @@
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: -2px;
+  margin-bottom: 48px;
+}
+
+.heading_theme_light {
+  color: #ffffff;
+}
+
+.heading_theme_dark {
+  color: rgba(20, 16, 41, 0.8);
+}
+
+.heading_theme_disabled {
+  color: rgba(20, 16, 41, 0.24);
+}
+
+
+.heading-medium {
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  margin-bottom: 24px;
+}
+
+.heading-small {
+  font-size: 20px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  margin-bottom: 16px;
+}
