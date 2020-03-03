@@ -1,0 +1,9 @@
+<svg class="icon__role icon__role_investor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 85 77">
+    <defs>
+        <radialGradient id="a" cx="21.045%" cy="27.28%" r="113.275%" fx="21.045%" fy="27.28%" gradientTransform="matrix(.69702 .64198 -.26689 .35062 .137 .042)">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <path fill="url(#a)" fill-rule="nonzero" d="M106.795 52c4.29 0 7.7 3.41 7.7 7.7l-.001 6.598h18.698c3.005 0 5.381 2.304 5.495 5.276l.005.224v51.695c0 3.08-2.42 5.5-5.5 5.5H59.5c-3.08 0-5.499-2.42-5.499-5.5V71.798c0-3.08 2.42-5.5 5.5-5.5h19.797v-6.599c0-4.29 3.41-7.699 7.7-7.699h19.798zm25.297 39.596H60.6v30.797h71.493V91.596zm0-18.698H60.6v12.098h71.493V72.898zm-25.297-14.299H86.997c-.55 0-1.1.55-1.1 1.1v6.599h21.997v-6.599c0-.55-.55-1.1-1.1-1.1z" transform="translate(-54 -52)"/>
+</svg>

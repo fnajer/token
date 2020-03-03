@@ -1,0 +1,9 @@
+<svg class="icon__role icon__role_wallet" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 32">
+    <defs>
+        <radialGradient id="a" cx="21.045%" cy="27.28%" r="133.224%" fx="21.045%" fy="27.28%" gradientTransform="matrix(.59265 .54585 -.17656 .38317 .134 .053)">
+            <stop offset="0%" stop-color="#FFF"/>
+            <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <path fill="url(#a)" fill-rule="nonzero" d="M63.996 32c1.54 0 2.75 1.21 2.75 2.75v6.599h2.2c.935 0 1.65.715 1.65 1.65v9.899a1.62 1.62 0 0 1-1.65 1.65l-2.2-.001v6.6c0 1.54-1.21 2.75-2.75 2.75H28.25c-1.54 0-2.75-1.21-2.75-2.75V34.75c0-1.54 1.21-2.75 2.75-2.75h35.746zm-.55 3.3H28.8v25.297h34.646v-6.05h-7.699a1.62 1.62 0 0 1-1.65-1.649v-9.9c0-.934.715-1.649 1.65-1.649h7.699v-6.05zm3.85 9.349h-9.9v6.6h9.9v-6.6z" transform="translate(-25 -32)"/>
+</svg>
