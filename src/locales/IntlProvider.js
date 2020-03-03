@@ -6,6 +6,8 @@ import flatten from 'flat'
 import ruMessages from './ru.json'
 import enMessages from './en.json'
 
+
+
 //import { LANG_KEY } from 'shared/constants/cookie'
 
 class IntlProviderWrapper extends PureComponent {
@@ -13,16 +15,18 @@ class IntlProviderWrapper extends PureComponent {
     children: PropTypes.any,
     //    cookies: PropTypes.object,
   }
-  state={
-    lang: 'en'
-  }
+  // state={
+  //   lang: 'en'
+  // }
 
   render() {
     //    const { cookies } = this.props
     //    const locale = cookies.get(LANG_KEY) || 'en'
-    const locale =  this.state.lang
-    const messages = locale === 'ru' ? ruMessages : enMessages
 
+    // const locale =  this.state.lang
+    const locale = this.props.lang.name.toLowerCase();
+    const messages = locale === 'ru' ? ruMessages : enMessages
+console.log(locale)
     return (
       <IntlProvider
         locale={locale}
