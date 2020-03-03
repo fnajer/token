@@ -1,3 +1,46 @@
 {
-  "MyWorker1": "MyWorker1"
+  "header": {
+    "menu": {
+      "telegram": "Telegram",
+      "howItWorks": "How it Works",
+      "signIn": "Sign In"
+    },
+    "buttons": {
+      "market": "Market",
+      "exchange": "Exchange"
+    }
+  },
+  "main": {
+    "title": "Bit.Team Marketplace",
+    "description": "Bit.Team aims to offer services that provide convenience and simplicity for the growing electronic currency exchange marketplace."
+  },
+  "peer": {
+    "title": "Peer-to-Peer",
+    "description": "Unique business model of the project. Opportunity to receive bonus in various areas simultaneously – ownership of platform tokens, referral program, cryptocurrency operations."
+  },
+  "platform": {
+    "title": "Platform",
+    "description": "Decentralized systems based on p2p technologies are the most profitable means of mutual payments between the users."
+  },
+  "marketplace": {
+    "title": "Marketplace",
+    "description": "BIT.TEAM is a decentralized platform that aims to offer p2p transactions between parties. Transactions are made directly between users.",
+    "buttons": {
+      "invest": "Invest"
+    }
+  },
+  "solutions": {
+    "title": "Problems & Solutions"
+  },
+  "roles": {
+    "buyer": {
+      "name": "Buyer"
+    }
+  },
+  "shared": {
+    "buttons": {
+      "join": "Join Us",
+      "read": "Read the WhitePaper"
+    }
+  }
 }
