@@ -1,20 +1,41 @@
 import React from "react"
-import { Link } from "gatsby"
+
+import Promo from 'modules/Promo';
+import Peer from 'modules/Peer';
+import Platform from 'modules/Platform';
+import Marketplace from 'modules/Marketplace';
+import Solutions from 'modules/Solutions';
+import What from 'modules/What';
+import Case from 'modules/Case';
+import Team from 'modules/Team';
+import Partners from 'modules/Partners';
+import Faq from 'modules/Faq';
+import Stay from 'modules/Stay';
+import Footer from 'modules/Footer';
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+// import Image from "../components/image"
 import SEO from "../components/seo"
 
+import 'styles/App.css';
+
 const IndexPage = () => (
-  <Layout>
+  <Layout> 
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <main>
+      <Promo /> 
+      <Peer />
+      <Platform />
+      <Marketplace />
+      <Solutions />
+      <What />
+      <Case />
+      <Team />
+      <Partners />
+      <Faq />
+      <Stay />
+      <Footer />
+    </main>
   </Layout>
 )
 
