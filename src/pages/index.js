@@ -21,21 +21,25 @@ import 'styles/App.css';
 
 const IndexPage = () => (
   <Layout> 
-    <SEO title="Home" />
-    <main>
-      <Promo /> 
-      <Peer />
-      <Platform />
-      <Marketplace />
-      <Solutions />
-      <What />
-      <Case />
-      <Team />
-      <Partners />
-      <Faq />
-      <Stay />
-      <Footer />
-    </main>
+    {(lang, setLang) => (
+      <>
+        <SEO title="Home" />
+        <main>
+          <Promo lang={lang} setLang={setLang} /> 
+          <Peer />
+          <Platform />
+          <Marketplace />
+          <Solutions />
+          <What />
+          <Case />
+          <Team />
+          <Partners />
+          <Faq />
+          <Stay />
+          <Footer />
+        </main>
+      </>
+    )}
   </Layout>
 )
 

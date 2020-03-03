@@ -1,0 +1,28 @@
+@import "styles/vars.scss";
+
+.mobile-header {
+  width: 100%;
+  position: absolute;
+  top: 72px;
+  left: 0;
+  overflow: hidden;
+  box-shadow: 0 32px 32px -4px rgba(20, 16, 41, 0.06), 0 64px 96px 0 rgba(20, 16, 41, 0.12), 0 8px 16px -1px rgba(20, 16, 41, 0.06), 0 0 1px 0 rgba(20, 16, 41, 0.12);
+  background-color: #ffffff;
+}
+
+.mobile-header__body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  transition: all 0.3s ease-in;
+
+  svg {
+    margin-right: 16px;
+  }
+
+  .button {
+    width: 100%;
+    border-radius: initial;
+  }
+}
