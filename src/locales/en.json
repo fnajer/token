@@ -34,7 +34,83 @@
   },
   "roles": {
     "buyer": {
-      "name": "Buyer"
+      "name": "Buyer",
+      "descriptionsStart": {
+        "item1": "What makes us stand out from the crowd of other cryptocurrency exchange platforms?"
+      },
+      "list": {
+        "item1": "BIT.TEAM users are authorized to set the exchange rates in the ads they use to sell or buy a cryptocurrency",
+        "item2": "All transaction data is stored strictly between the parties participating in the transaction",
+        "item3": "Each trader has his/her own rank within the site data system. The ranking is based on the number of successful transactions a user performs. In addition, users will have a chance to review each other",
+        "item4": "Users can optimize security levels for their own profiles: BIT.TEAM allows users to use two-factor authorization for Mail.ru and Google",
+        "item5": "An option allowing trade alerts to be delivered by email, telegram or through SMS. BIT.TEAM applications",
+        "item6": "Customers have a chance to choose the payment system that has the most convenience for them",
+        "item7": "Multi-level referral program."
+      }
+    },
+    "investor": {
+      "name": "Investor",
+      "descriptionsStart": {
+        "item1": "In order to become an owner of BTT tokens, you need to take a number of actions:"
+      },
+      "list": {
+        "item1": "Visit the website of the exchange platform: http://token.btt.team",
+        "item2": "Sign up to the project;",
+        "item3": "Log in to your account and charge your wallet wich you would like to use to purchase your tokens.",
+        "item4": "Available: BTC, ETH, LTC;",
+        "item5": "Many popular payment systems are available for investment.",
+        "item6": "Go to the BTT bidding page;",
+        "item7": "Click on the published order from the platform and purchase the required amount of tokens.",
+        "item8": "Tokens will be stored in the platform's internal wallet and will be available for trading or withdrawal to private wallets."
+      }
+    },
+    "miner": {
+      "name": "Miner",
+      "descriptionsStart": {
+        "item1": "The exchange platform gives the users the following advantages:"
+      },
+      "list": {
+        "item1": "automatic report generation for the selected period;",
+        "item2": "automatic balance notification;",
+        "item3": "instant transaction execution;",
+        "item4": "secure exchange guarantee;",
+        "item5": "no intermediaries."
+      },
+      "descriptionsEnd": {
+        "item1": "Security within the framework of BIT.TEAM is ensured as follows: when registering a new account, a two-factor user authentication system is applied, where an SMS confirmation is used, which is connected to the Telegram messenger or another platform. In fact, our security is similar to Telegram’s security."
+      }
+    },
+    "wallet": {
+      "name": "Wallet",
+      "descriptionsEnd": {
+        "item1": "Your funds are at your disposal anywhere, anytime. You can access the funds from your phone, tablet or laptop with Internet connection. To do this, you do not need to install additional software: just enter your account login and password.",
+        "item2": "You don’t need any special software to store your coins - the platform supports most of the popular coins and a great number of altcoins.",
+        "item3": "In case of a clear trend in the market, you can immediately start trading. This may be important in a highly volatile environment such as that of cryptocurrency markets. If you store your coins on a third-party platform, they will have to be withdrawn presenting gaps within an altogether fluid market."
+      }
+    },
+    "seller": {
+      "name": "Seller",
+      "descriptionsStart": {
+        "item1": "What makes us stand out from the crowd of other cryptocurrency exchange platforms?"
+      },
+      "list": {
+        "item1": "No intermediaries;",
+        "item2": "Extreme simplicity of the operation;",
+        "item3": "Absolute security of transactions, owing to BIT.TEAM guarantor;",
+        "item4": "24/7 support service;",
+        "item5": "Traders will be able to utilize a chat interface, allowing them to interact with others.",
+        "item6": "Multicurrency (transactions with Bitcoin, Dash, Ethereum), as well as the possibility of adding new cryptocurrencies;",
+        "item7": "Favorable affiliate program;",
+        "item8": "Mobile access to the site;",
+        "item9": "Instant notifications in various instant messengers."
+      }
+    },
+    "news": {
+      "name": "News",
+      "descriptionsEnd": {
+        "item1": "News has always been a useful resource, one of the reasons to follow the news and be aware of what is happening around the world is the increased interest in ICOs (initial coin offerings). ICOs have been one of the ways to attract venture capitalists to a startup. But there can be anything in the root of ICO. The major pioneer of ICO was the blockchain infrastructure Ethereum. While Bitcoin price’s jumped 1,000% in 2017, the price of Ethereum soared by 8,000%. This caused a wave of initial offerings, and investors started to invest in these currencies in steed, without due thinking and analysis.",
+        "item2": "No one can guarantee whether it is worth investing in Bitcoin. The future of the system is only known to those with a high stake, but many are not prepared to share their plans with anyone else. Bit.team news sees to the fact that people feel reluctant to join the crypto-market. However, a single price surge catalyst will be enough for newbies to fall into the cryptocurrency fever again. Follow the news with Bit.team to stay in the loop!"
+      }
     }
   },
   "shared": {
