@@ -1,3 +1,6 @@
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+
 import WhalesburgImg from 'shared/images/partners/whalesburg.jpg';
 import BitcoinImg from 'shared/images/partners/bitcoin.jpg';
 import WallbtcImg from 'shared/images/partners/wallbtc.jpg';
@@ -13,7 +16,7 @@ import CryptoglobeImgMobile from 'shared/images/partners/cryptoglobe-mobile.jpg'
 
 export default [
   {
-    name: 'PARTNERS',
+    name: <FormattedMessage id="partners.title" />,
     list: [
       [
         {
@@ -78,7 +81,7 @@ export default [
     ]
   },
   {
-    name: 'INFORMATION',
+    name: <FormattedMessage id="information.title" />,
     list: [
       [
         {

@@ -163,6 +163,12 @@
   "advisors": {
     "title": "ADVISORS"
   },
+  "partners": {
+    "title": "PARTNERS"
+  },
+  "information": {
+    "title": "INFORMATION"
+  },
   "shared": {
     "buttons": {
       "join": "Join Us",

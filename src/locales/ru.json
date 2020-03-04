@@ -163,6 +163,12 @@
   "advisors": {
     "title": "КОНСУЛЬТАНТЫ"
   },
+  "partners": {
+    "title": "ПАРТНЕРЫ"
+  },
+  "information": {
+    "title": "ИНФОРМАЦИЯ"
+  },
   "shared": {
     "buttons": {
       "join": "Присоединяйся",
