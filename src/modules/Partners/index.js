@@ -5,7 +5,7 @@ import { Container } from 'shared/layout/Container';
 import { ControlsGroup, Control } from 'shared/components/Carousel/Controls';
 
 import { CarouselList, CarouselItem } from './components/Carousel';
-import { TabsList, TabsItem } from 'modules/team/components/Tabs';
+import { TabsList, TabsItem } from 'modules/Team/components/Tabs';
 import Tabs from 'shared/components/Tabs';
 import Carousel from 'shared/components/Carousel';
 
