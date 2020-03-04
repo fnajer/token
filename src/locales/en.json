@@ -122,6 +122,21 @@
       "telegram": "Telegram (TON)"
     }
   },
+  "cases": {
+    "title": "Case study of the BitTeam network application",
+    "case1": {
+      "title": "Crypto-payments, using an ordinary wallet",
+      "description": "BIP can be used for immediate payment for goods and services at will"
+    },
+    "case2": {
+      "title": "Gift-cards, loyalty programs",
+      "description": "BitTeam provides businesses with a means of building trust-based relations with a customer"
+    },
+    "case3": {
+      "title": "Communities’ money",
+      "description": "Coins can be used for transferring values within a particular community"
+    }
+  },
   "shared": {
     "buttons": {
       "join": "Join Us",

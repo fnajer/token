@@ -1,21 +1,24 @@
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+
 import cryptoSvg from 'modules/Case/svg/crypto.svg';
 import giftSvg from 'modules/Case/svg/gift.svg';
 import moneySvg from 'modules/Case/svg/money.svg';
 
 export default [
   {
-    heading: 'Crypto-payments, using an ordinary wallet',
+    heading: <FormattedMessage id="cases.case1.title" />,
     img: cryptoSvg,
-    description: 'BIP can be used for immediate payment for goods and services at will',
+    description: <FormattedMessage id="cases.case1.description" />,
   },
   {
-    heading: 'Gift-cards, loyalty programs',
+    heading: <FormattedMessage id="cases.case2.title" />,
     img: giftSvg,
-    description: 'BitTeam provides businesses with a means of building trust-based relations with a customer',
+    description: <FormattedMessage id="cases.case2.description" />,
   },
   {
-    heading: 'Communities’ money',
+    heading: <FormattedMessage id="cases.case3.title" />,
     img: moneySvg,
-    description: 'Coins can be used for transferring values within a particular community',
+    description: <FormattedMessage id="cases.case3.description" />,
   },
 ]

@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FormattedMessage } from 'react-intl';
 
 import { Container } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
@@ -32,7 +33,9 @@ function Case() {
     <Container>
       <Row>
         <Col>
-          <Heading theme={themes.DARK}>Case study of the BitTeam network application</Heading>
+          <Heading theme={themes.DARK}>
+            <FormattedMessage id="cases.title" />
+          </Heading>
           <Cards>
             {cases.map(card => (
               <Card card={card} />
