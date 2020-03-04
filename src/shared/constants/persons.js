@@ -1,3 +1,6 @@
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+
 import AnatolyPhoto from 'shared/images/team/team-1.jpg';
 import MargaritaPhoto from 'shared/images/team/team-2.jpg';
 import DmitryPhoto from 'shared/images/team/team-3.jpg';
@@ -9,75 +12,75 @@ import NikitaPhotoMobile from 'shared/images/team/team-mobile-4.jpg';
 
 export default [
   {
-    name: 'TEAM',
+    name: <FormattedMessage id="team.title" />,
     list: [
       {
         image: AnatolyPhoto,
         imageMobile: AnatolyPhotoMobile,
-        position: 'CEO',
-        name: 'Anatoly Berdnikov',
-        description: 'More than 5 years of engagement in the development and implementations of fintech projects',
+        position: <FormattedMessage id="team.member1.specialization" />,
+        name: <FormattedMessage id="team.member1.name" />,
+        description: <FormattedMessage id="team.member1.description" />,
         instagram: 'https://instagram.com',
       },
       {
         image: MargaritaPhoto,
         imageMobile: MargaritaPhotoMobile,
-        position: 'FINANCIAL ANALYST',
-        name: 'Margarita Ignatova',
-        description: 'Specialist in the field of international payment systems: ensuring the functioning and development',
+        position: <FormattedMessage id="team.member2.specialization" />,
+        name: <FormattedMessage id="team.member2.name" />,
+        description: <FormattedMessage id="team.member2.description" />,
         instagram: 'https://instagram.com',
       },
       {
         image: DmitryPhoto,
         imageMobile: DmitryPhotoMobile,
-        position: 'CTO',
-        name: 'Dmitry Stepanov',
-        description: '2 years experience as a Head of technical department at wallbtc.com',
+        position: <FormattedMessage id="team.member3.specialization" />,
+        name: <FormattedMessage id="team.member3.name" />,
+        description: <FormattedMessage id="team.member3.description" />,
         instagram: 'https://instagram.com',
       },
       {
         image: NikitaPhoto,
         imageMobile: NikitaPhotoMobile,
-        position: 'Compliance of',
-        name: 'Nikita Vereme',
-        description: 'Has an extensive experience in implementing a comprehensive legal support for',
+        position: <FormattedMessage id="team.member4.specialization" />,
+        name: <FormattedMessage id="team.member4.name" />,
+        description: <FormattedMessage id="team.member4.description" />,
         instagram: 'https://instagram.com',
       }
     ]
   },
   {
-    name: 'ADVISORS',
+    name: <FormattedMessage id="advisors.title" />,
     list: [
       {
         image: DmitryPhoto,
         imageMobile: DmitryPhotoMobile,
-        position: 'CTO',
-        name: 'Dmitry Stepanov',
-        description: '2 years experience as a Head of technical department at wallbtc.com',
+        position: <FormattedMessage id="team.member3.specialization" />,
+        name: <FormattedMessage id="team.member3.name" />,
+        description: <FormattedMessage id="team.member3.description" />,
         instagram: 'https://instagram.com',
       },
       {
         image: NikitaPhoto,
         imageMobile: NikitaPhotoMobile,
-        position: 'Compliance of',
-        name: 'Nikita Vereme',
-        description: 'Has an extensive experience in implementing a comprehensive legal support for',
+        position: <FormattedMessage id="team.member4.specialization" />,
+        name: <FormattedMessage id="team.member4.name" />,
+        description: <FormattedMessage id="team.member4.description" />,
         instagram: 'https://instagram.com',
       },
       {
         image: AnatolyPhoto,
         imageMobile: AnatolyPhotoMobile,
-        position: 'CEO',
-        name: 'Anatoly Berdnikov',
-        description: 'More than 5 years of engagement in the development and implementations of fintech projects',
+        position: <FormattedMessage id="team.member1.specialization" />,
+        name: <FormattedMessage id="team.member1.name" />,
+        description: <FormattedMessage id="team.member1.description" />,
         instagram: 'https://instagram.com',
       },
       {
         image: MargaritaPhoto,
         imageMobile: MargaritaPhotoMobile,
-        position: 'FINANCIAL ANALYST',
-        name: 'Margarita Ignatova',
-        description: 'Specialist in the field of international payment systems: ensuring the functioning and development',
+        position: <FormattedMessage id="team.member2.specialization" />,
+        name: <FormattedMessage id="team.member2.name" />,
+        description: <FormattedMessage id="team.member2.description" />,
         instagram: 'https://instagram.com',
       },
     ]
