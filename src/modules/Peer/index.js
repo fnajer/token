@@ -6,7 +6,7 @@ import { Container, BGContainerCSS } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
 import Text from 'shared/components/Text';
 
-import peer from './peer.jpg';
+import peer from 'shared/images/peer.jpg';
 
 import * as themes from 'shared/constants/themes'
 import * as SCREEN_SIZES from 'shared/constants/screenSizes';
