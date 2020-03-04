@@ -113,6 +113,15 @@
       }
     }
   },
+  "what": {
+    "title": "What is BitTeam?",
+    "description": "BitTeam implements the concept of the Internet of Money (IoM), which is being developed by",
+    "note": "The main network token is BIP (Blockchain Instant Payment).",
+    "buttons": {
+      "facebook": "Facebook (Project Libra)",
+      "telegram": "Telegram (TON)"
+    }
+  },
   "shared": {
     "buttons": {
       "join": "Join Us",

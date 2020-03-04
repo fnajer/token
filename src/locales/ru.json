@@ -113,6 +113,15 @@
       }
     }
   },
+  "what": {
+    "title": "Что такое BitTeam?",
+    "description": "BitTeam реализует концепцию Интернета денег (IoM), которая разрабатывается",
+    "note": "Основным токеном сети является BIP (Blockchain Instant Payment).",
+    "buttons": {
+      "facebook": "Facebook (Проект Libra)",
+      "telegram": "Telegram (TON)"
+    }
+  },
   "shared": {
     "buttons": {
       "join": "Присоединяйся",

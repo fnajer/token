@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FormattedMessage } from 'react-intl';
 
 import { Container, BGContainerCSS } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
@@ -75,14 +76,24 @@ function What() {
       <Container>
         <Row>
           <ColPeer>
-            <Heading theme={themes.DARK}>What is BitTeam?</Heading>
-            <Text theme={themes.DARK}>BitTeam implements the concept of the Internet of Money (IoM), which is being developed by</Text>
+            <Heading theme={themes.DARK}>
+              <FormattedMessage id="what.title" />
+            </Heading>
+            <Text theme={themes.DARK}>
+              <FormattedMessage id="what.description" />
+            </Text>
             <LinkBlock>
-              <Link><FacebookIcon withParent={IconCircle} bgColor="#1877f2" />Facebook (Project Libra)</Link>
-              <Link><TelegramIcon withParent={IconCircle} bgColor="#2ca5e0" />Telegram (TON)</Link>
+              <Link><FacebookIcon withParent={IconCircle} bgColor="#1877f2" />
+                <FormattedMessage id="what.buttons.facebook" />
+              </Link>
+              <Link><TelegramIcon withParent={IconCircle} bgColor="#2ca5e0" />
+                <FormattedMessage id="what.buttons.telegram" />
+              </Link>
             </LinkBlock>
             <Note>
-              <Text theme={themes.DARK} style={{ marginBottom: 0 }}>The main network token is BIP (Blockchain Instant Payment).</Text>
+              <Text theme={themes.DARK} style={{ marginBottom: 0 }}>
+                <FormattedMessage id="what.note" />
+              </Text>
             </Note>
           </ColPeer>
         </Row>
