@@ -217,6 +217,29 @@
       }
     }
   },
+  "footer": {
+    "menu": {
+      "home": "Home",
+      "marketplace": "Marketplace",
+      "solutions": "Solutions",
+      "howItWorks": "How it works",
+      "case": "Case study",
+      "p2p": "P2P",
+      "platform": "Platform",
+      "team": "Team",
+      "partners": "Partners",
+      "faq": "FAQ",
+      "contacts": "Contacts"
+    },
+    "menuExtra": {
+      "terms": "Terms & Conditions",
+      "policy": "Privacy Policy",
+      "sales": "Sales & Refunds",
+      "legal": "Legal"
+    },
+    "madeBy": "made by",
+    "copyright": "All rights reserved."
+  },
   "shared": {
     "buttons": {
       "join": "Join Us",

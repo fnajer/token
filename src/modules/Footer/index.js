@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components';
+import { FormattedMessage } from 'react-intl';
 
 import { Container } from 'shared/layout/Container';
 
@@ -89,19 +90,36 @@ class FooterComponent extends React.Component {
         </FooterTop>
         <Menu 
           position={positions.FOOTER}
-          items={['Home', 'Marketplace', 'Solutions', 'How it works', 'Case study', 'P2P', 'Platform', 'Team', 'Partners', 'FAQ', 'Contacts']}
+          items={[
+            <FormattedMessage id="footer.menu.home" />, 
+            <FormattedMessage id="footer.menu.marketplace" />, 
+            <FormattedMessage id="footer.menu.solutions" />,
+            <FormattedMessage id="footer.menu.howItWorks" />, 
+            <FormattedMessage id="footer.menu.case" />, 
+            <FormattedMessage id="footer.menu.p2p" />,
+            <FormattedMessage id="footer.menu.platform" />, 
+            <FormattedMessage id="footer.menu.team" />, 
+            <FormattedMessage id="footer.menu.partners" />,
+            <FormattedMessage id="footer.menu.faq" />, 
+            <FormattedMessage id="footer.menu.contacts" />,
+          ]}
         />
         <FooterBottom>
           <span>
-            &copy;PrizmSpaceBot 2019, 
-            All rights reserved.
+            &copy; BitTeam, 2020. {' '}
+            <FormattedMessage id="footer.copyright" />
           </span>
           <Menu 
             position={positions.FOOTER_EXTRA}
-            items={['Terms & Conditions', 'Privacy Policy', 'Sales & Refunds', 'Legal']}
+            items={[
+              <FormattedMessage id="footer.menuExtra.terms" />, 
+              <FormattedMessage id="footer.menuExtra.policy" />,
+              <FormattedMessage id="footer.menuExtra.sales" />, 
+              <FormattedMessage id="footer.menuExtra.legal" />,
+            ]}
           />
           <Made>
-            madeBy 
+            <FormattedMessage id="footer.madeBy" />
             <span> roobinium</span>
           </Made>
         </FooterBottom>

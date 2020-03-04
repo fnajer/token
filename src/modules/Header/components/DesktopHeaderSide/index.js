@@ -23,7 +23,6 @@ const LeftButton = styled(Button)`
 
 class Header extends Component {
   render() {
-    console.log(<FormattedMessage id="header.menu.telegram" />)
     return (
       <>
         <Logo light={true}/>
