@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FormattedMessage } from 'react-intl';
 
 import { Container } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
@@ -122,23 +123,41 @@ function Stay() {
       <StayContainer>
         <Row>
           <Col>
-            <SubHeading>Stay up-to-date</SubHeading>
-            <Heading theme={themes.LIGHT}>Bit.Team Marketplace</Heading>
-            <Text theme={themes.LIGHT}>Bit.Team aims to offer services that provide convenience and simplicity for the growing electronic currency exchange marketplace.</Text>
+            <SubHeading>
+              <FormattedMessage id="stay.subtitle" />
+            </SubHeading>
+            <Heading theme={themes.LIGHT}>
+              <FormattedMessage id="main.title" />
+            </Heading>
+            <Text theme={themes.LIGHT}>
+              <FormattedMessage id="main.description" />
+            </Text>
           </Col>
           <ColAdresses>
             <Address>
               <AddressCircle icon={czechSvgPath} />
-              <AddressTitle>Czech Republic</AddressTitle>
-              <AddressParagraph>Lublaňská 267/12 Vinohrady, 120 00 Praha 2</AddressParagraph>
+              <AddressTitle>
+                <FormattedMessage id="stay.addresses.addressBlock1.country" />
+              </AddressTitle>
+              <AddressParagraph>
+                <FormattedMessage id="stay.addresses.addressBlock1.address" />
+              </AddressParagraph>
             </Address>
             <Address>
               <AddressCircle icon={singaporeSvgPath} />
-              <AddressTitle>Singapore</AddressTitle>
-              <AddressParagraph>High Street Plaza 77, #09-11, 069533</AddressParagraph>
+              <AddressTitle>
+                <FormattedMessage id="stay.addresses.addressBlock2.country" />
+              </AddressTitle>
+              <AddressParagraph>
+                <FormattedMessage id="stay.addresses.addressBlock2.address" />
+              </AddressParagraph>
             </Address>
-            <LeftButton theme={themes.BLUE}>Join Us</LeftButton>
-            <Button theme={themes.LIGHT}>Read the WhitePaper</Button>
+            <LeftButton theme={themes.BLUE}>
+              <FormattedMessage id="shared.buttons.join" />
+            </LeftButton>
+            <Button theme={themes.LIGHT}>
+              <FormattedMessage id="shared.buttons.read" />
+            </Button>
           </ColAdresses>
         </Row>
       </StayContainer>

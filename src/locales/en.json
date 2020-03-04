@@ -204,6 +204,19 @@
       "description": "There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more)."
     }
   },
+  "stay": {
+    "subtitle": "Stay up-to-date",
+    "addresses": {
+      "addressBlock1": {
+        "country": "Czech Republic",
+        "address": "Lublaňská 267/12 Vinohrady, 120 00 Praha 2"
+      },
+      "addressBlock2": {
+        "country": "Singapore",
+        "address": "High Street Plaza 77, #09-11, 069533"
+      }
+    }
+  },
   "shared": {
     "buttons": {
       "join": "Join Us",
