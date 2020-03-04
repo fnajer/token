@@ -68,22 +68,23 @@ const Made = styled.span`
   }
 `
 class FooterComponent extends React.Component {
-  state = {
-    activeLang: LANGS[0],
-  }
+  // state = {
+  //   activeLang: LANGS[0],
+  // }
 
-  changeLang = lang => {
-    this.setState({ activeLang: lang })
-  }
+  // changeLang = lang => {
+  //   this.setState({ activeLang: lang })
+  // }
 
   render() {
+    const { activeLang, changeLang } = this.props
     return (
       <FooterContainer>
         <FooterTop>
           <LogoName>BitTeam</LogoName>
           <LanguageSelector
-            activeLang={this.state.activeLang} 
-            changeLang={this.state.changeLang} 
+            activeLang={activeLang} 
+            changeLang={changeLang} 
           />
           <EmailForm />
           <Social />

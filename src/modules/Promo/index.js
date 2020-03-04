@@ -57,10 +57,10 @@ const Row = styled.div`
   margin: 0 auto;
 `
 
-function Promo({ lang, setLang }) {
+function Promo({ activeLang, changeLang }) {
   return (
     <BGWrapper>
-      <Header activeLang={lang} changeLang={setLang} />
+      <Header activeLang={activeLang} changeLang={changeLang} />
       <PromoContainer>
         <Row>
           <ColPromo>

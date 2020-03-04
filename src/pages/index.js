@@ -25,7 +25,7 @@ const IndexPage = () => (
       <>
         <SEO title="Home" />
         <main>
-          <Promo lang={lang} setLang={setLang} /> 
+          <Promo activeLang={lang} changeLang={setLang} /> 
           <Peer />
           <Platform />
           <Marketplace />
@@ -36,7 +36,7 @@ const IndexPage = () => (
           <Partners />
           <Faq />
           <Stay />
-          <Footer />
+          <Footer activeLang={lang} changeLang={setLang} />
         </main>
       </>
     )}
