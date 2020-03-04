@@ -11,7 +11,9 @@ export const TabsList = styled.ul`
 export const TabsItem = styled(Heading).attrs(props => ({
   theme: props.active ? themes.DARK : themes.DISABLED,
 }))`
-  
+  :hover {
+    color: ${props => props.active ? 'rgba(20, 16, 41, 0.6)' : 'rgba(20, 16, 41, 0.4);'};
+  }
   @media (min-width: ${SCREEN_SIZES.SMALL}) {
     display: inline-block;
     cursor: pointer;

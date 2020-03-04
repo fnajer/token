@@ -9,6 +9,7 @@
   line-height: 1.5;
   letter-spacing: normal;
   border-radius: 24px;
+  transition: all 0.2s ease-out;
   @media (max-width: $MEDIUM) {
     width: 100%;
   }
@@ -19,9 +20,24 @@
   box-shadow: 0 8px 8px -4px rgba(69, 121, 245, 0.06), 0 2px 4px -1px rgba(20, 16, 41, 0.06), 0 0 1px 0 rgba(69, 121, 245, 0.12);
   background-color: #ffffff;
 }
+.button_theme_light:hover {
+  box-shadow: 0 12px 12px -4px rgba(69, 121, 245, 0.06), 0 4px 4px -1px rgba(20, 16, 41, 0.06), 0 1px 1px 0 rgba(69, 121, 245, 0.12);
+  color: rgba(69, 121, 245, 0.8);
+}
+.button_theme_light:active {
+  box-shadow: 0 8px 8px -4px rgba(69, 121, 245, 0.06), 0 1px 4px -1px rgba(20, 16, 41, 0.06), 0 1px 1px 0 rgba(69, 121, 245, 0.12);
+}
 
 .button_theme_blue {
   color: #ffffff;
   box-shadow: 0 8px 8px -4px rgba(69, 121, 245, 0.12), 0 2px 4px -1px rgba(27, 10, 82, 0.12), 0 0 1px 0 rgba(69, 121, 245, 0.24);
+  background-color: #4579f5;
+}
+.button_theme_blue:hover {
+  box-shadow: 0 12px 12px -4px rgba(69, 121, 245, 0.12), 0 4px 4px -1px rgba(27, 10, 82, 0.12), 0 1px 1px 0 rgba(69, 121, 245, 0.24);
+  background-color: #5081f6;
+}
+.button_theme_blue:active {
+  box-shadow: 0 8px 8px -4px rgba(69, 121, 245, 0.12), 0 1px 4px -1px rgba(27, 10, 82, 0.12), 0 1px 1px 0 rgba(69, 121, 245, 0.24);
   background-color: #4579f5;
 }

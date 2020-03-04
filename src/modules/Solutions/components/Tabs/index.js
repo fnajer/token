@@ -29,6 +29,9 @@ export const TabsItem = styled.li`
   background-color: ${props => props.active ? '#4579f5' : '#ffffff'};
   color: ${props => props.active ? '#ffffff' : ''};
   cursor: pointer;
+  :hover {
+    background-color: ${props => props.active ? '#5081f6' : 'rgba(20, 16, 41, 0.02)'};
+  }
 `
 
 // function Tabs({ activeTab, setTab }) {

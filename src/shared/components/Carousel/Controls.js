@@ -18,4 +18,7 @@ export const Control = styled.div`
   &:last-child {
     margin-right: 0;
   }
+  :hover {
+    box-shadow: 0 12px 12px -4px rgba(69, 121, 245, 0.06), 0 4px 4px -1px rgba(20, 16, 41, 0.06), 0 1px 1px 0 rgba(69, 121, 245, 0.12);
+  }
 `
