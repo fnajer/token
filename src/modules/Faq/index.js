@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import { ScreenClassRender } from 'react-grid-system'
+import { FormattedMessage } from 'react-intl';
 
 import { Container } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
@@ -30,7 +31,9 @@ const SpoilersPair = styled.div`
 function Faq() {
   return (
     <Container>
-      <Heading theme={themes.DARK}>FAQ</Heading>
+      <Heading theme={themes.DARK}>
+        <FormattedMessage id="faq.title" />
+      </Heading>
       <Row>
         <ScreenClassRender
             render={screenClass => {

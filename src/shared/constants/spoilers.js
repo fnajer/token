@@ -1,42 +1,45 @@
+import React from 'react';
+import { FormattedMessage } from 'react-intl';
+
 export default [
   [
     {
-      title: 'What is BIT.TEAM?',
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
+      title: <FormattedMessage id="faq.block1.title" />,
+      description: <FormattedMessage id="faq.block1.description" />,
     },
     {
-      title: 'Which problems or limitations does your platform solve?',
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
-    },
-  ],
-  [
-    {
-      title: "What are the main security measures of the investor's account?",
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
-    },
-    {
-      title: 'Do you have a referral program?',
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
+      title: <FormattedMessage id="faq.block2.title" />,
+      description: <FormattedMessage id="faq.block2.description" />,
     },
   ],
   [
     {
-      title: "What's the functionality of BTT token?",
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
+      title: <FormattedMessage id="faq.block3.title" />,
+      description: <FormattedMessage id="faq.block3.description" />,
     },
     {
-      title: 'How to buy BTT tokens?',
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
+      title: <FormattedMessage id="faq.block4.title" />,
+      description: <FormattedMessage id="faq.block4.description" />,
     },
   ],
   [
     {
-      title: 'Who are project developers? Where can I assess the information about the team?',
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
+      title: <FormattedMessage id="faq.block5.title" />,
+      description: <FormattedMessage id="faq.block5.description" />,
     },
     {
-      title: 'Where can I store your tokens?',
-      description: 'There are two major issues that BIT Team aims to resolve: 1. Impossibility to buy cryptocurrency directly. In order to enter a digital exchange, one generally needs to first purchase cryptocurrency from intermediaries at an elevated price. A trader’s losses in this case range from 2% to 15% (sometimes even more).',
+      title: <FormattedMessage id="faq.block6.title" />,
+      description: <FormattedMessage id="faq.block6.description" />,
+    },
+  ],
+  [
+    {
+      title: <FormattedMessage id="faq.block7.title" />,
+      description: <FormattedMessage id="faq.block7.description" />,
+    },
+    {
+      title: <FormattedMessage id="faq.block8.title" />,
+      description: <FormattedMessage id="faq.block8.description" />,
     },
   ]
 ]
