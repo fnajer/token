@@ -27,7 +27,8 @@
     "description": "BIT.TEAM is a decentralized platform that aims to offer p2p transactions between parties. Transactions are made directly between users.",
     "buttons": {
       "invest": "Invest"
-    }
+    },
+    "urlVideo": "https://www.youtube.com/embed/qoJ8oTLrJkg"
   },
   "solutions": {
     "title": "Problems & Solutions"
