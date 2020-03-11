@@ -1,0 +1,55 @@
+---
+kind: pipeline
+type: docker
+name: CI/CD
+
+base-job-config: &base-job-config
+  image: docker:19.03.5
+  privileged: true
+  environment:
+    DOCKER_USERNAME:
+      from_secret: docker_username
+    DOCKER_PASSWORD:
+      from_secret: docker_password
+  volumes:
+    - name: dockersock
+      path: /var/run/docker.sock
+  
+
+steps:
+- name: build and push DEV image
+  <<: *base-job-config
+  when:
+    branch:
+      - dev
+  environment:
+    TAG: dev
+  commands:
+    - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin dregistry.wallbtc.com
+    - docker build --build-arg NODE_ENV=dev -t dregistry.wallbtc.com/bitteam/token.bit.team:$TAG .
+    - docker push dregistry.wallbtc.com/bitteam/token.bit.team:$TAG
+
+- name: performing DEVELOPE server update
+  image: appleboy/drone-ssh:1.5.5
+  when:
+    branch:
+      - dev
+  settings:
+    host: 192.168.74.9
+    port: 22
+    username: deploy
+    key:
+      from_secret: deploy_ssh_key
+    script:
+      - cd /var/www/html/token.bit.team
+#     - git pull
+      - docker-compose pull
+      - docker-compose up -d
+      # we need force nginx to be recreated
+      # to reset DNS cache for proxied containers
+#     - docker-compose up -d --force-recreate nginx
+
+volumes:
+- name: dockersock
+  host:
+    path: /var/run/docker.sock
