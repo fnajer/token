@@ -156,13 +156,18 @@
       "description": "2 years experience as a Head of technical department at wallbtc.com"
     },
     "member4": {
-      "specialization": "Compliance of",
-      "name": "Nikita Vereme",
-      "description": "Has an extensive experience in implementing a comprehensive legal support for"
+      "specialization": "COMPILIANCE OFFICER",
+      "name": "Nikita Veremeyev",
+      "description": "Has an extensive experience in implementing a comprehensive legal support"
     }
   },
   "advisors": {
-    "title": "ADVISORS"
+    "title": "ADVISORS",
+    "member1": {
+      "specialization": "ADVISER",
+      "name": "Bolobonova Maria",
+      "description": "Teacher of the Department of Entrepreneurial Law at the Urals State University, Head of legal department of the Ural Blockchain Association"
+    }
   },
   "partners": {
     "title": "PARTNERS"
