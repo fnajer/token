@@ -70,11 +70,11 @@ steps:
     key:
       from_secret: deploy_ssh_key
     script:
-      - cd /home/deploy/token.bit.team
+      - cd token.bit.team
       - docker-compose pull
       - docker-compose up -d
 
-- name: performing PRODUCTION server update
+- name: performing PRODUCTION server2 update
   image: appleboy/drone-ssh:1.5.5
   when:
     branch:
@@ -86,7 +86,7 @@ steps:
     key:
       from_secret: deploy_ssh_key
     script:
-      - cd /home/deploy/token.bit.team
+      - cd token.bit.team
       - docker-compose pull
       - docker-compose up -d
 
