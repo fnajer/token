@@ -12,7 +12,7 @@
   },
   "main": {
     "title": "Bit.Team Marketplace",
-    "description": "Bit.Team aims to offer services that provide convenience and simplicity for the growing electronic currency exchange marketplace."
+    "description": "Bit.Team aims to offer services that provide convenience and simplicity for the growing electronic money and cryptocurrency exchange marketplace."
   },
   "peer": {
     "title": "Peer-to-Peer",
@@ -117,7 +117,7 @@
   "what": {
     "title": "What is BitTeam?",
     "description": "BitTeam implements the concept of the Internet of Money (IoM), which is being developed by",
-    "note": "The main network token is BIP (Blockchain Instant Payment).",
+    "note": "The main network token is BTT (BIT TEAM TOKEN).",
     "buttons": {
       "facebook": "Facebook (Project Libra)",
       "telegram": "Telegram (TON)"
@@ -127,7 +127,7 @@
     "title": "Case study of the BitTeam network application",
     "case1": {
       "title": "Crypto-payments, using an ordinary wallet",
-      "description": "BIP can be used for immediate payment for goods and services at will"
+      "description": "BTT can be used for immediate payment for goods and services at will"
     },
     "case2": {
       "title": "Gift-cards, loyalty programs",
