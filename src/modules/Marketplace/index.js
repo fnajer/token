@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FormattedMessage } from 'react-intl';
+import { FormattedMessage, injectIntl } from 'react-intl';
 
 import { Container } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
@@ -47,13 +47,20 @@ const Col = styled.div`
   }  
 `
 
-function Marketplace() {
+function Marketplace({ intl }) {
   return (
     <Wrapper>
       <PromoContainer>
         <Row>
           <Col>
-            <iframe title="marketplace" width="635" height="357" src="https://www.youtube.com/embed/PpNIu8-2bjo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe title="marketplace" width="635" height="357" 
+              src={intl.formatMessage({
+                id: 'marketplace.urlVideo',
+              })} 
+              frameborder="0" 
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+              allowfullscreen>
+            </iframe>
           </Col>
           <ColPromoPart>
             <Heading theme={themes.DARK}>
@@ -72,4 +79,4 @@ function Marketplace() {
   );
 }
 
-export default Marketplace;
+export default injectIntl(Marketplace);

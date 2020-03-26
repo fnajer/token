@@ -27,7 +27,8 @@
     "description": "BIT.TEAM is a decentralized platform that aims to offer p2p transactions between parties. Transactions are made directly between users.",
     "buttons": {
       "invest": "Invest"
-    }
+    },
+    "urlVideo": "https://www.youtube.com/embed/qoJ8oTLrJkg"
   },
   "solutions": {
     "title": "Problems & Solutions"
@@ -142,7 +143,7 @@
     "member1": {
       "specialization": "CEO",
       "name": "Anatoly Berdnikov",
-      "description": "More than 5 years of engagement in the development and implementations of fintech projects"
+      "description": "More than 5 years of engagement in the development and implementation of projects in the field of fintech, Created one of the largest platform in Russia and the CIS - wallbtc.com"
     },
     "member2": {
       "specialization": "FINANCIAL ANALYST",
@@ -155,13 +156,73 @@
       "description": "2 years experience as a Head of technical department at wallbtc.com"
     },
     "member4": {
-      "specialization": "Compliance of",
-      "name": "Nikita Vereme",
-      "description": "Has an extensive experience in implementing a comprehensive legal support for"
+      "specialization": "COMPILIANCE OFFICER",
+      "name": "Nikita Veremeyev",
+      "description": "Has an extensive experience in implementing a comprehensive legal support for the company's activities in the field of international law. He is a certified high-level anti-crisis manager. More than 7 years of experience in cooperation with IT companies. Recommended by a number of international reference books"
+    },
+    "member5": {
+      "specialization": "Developer",
+      "name": "Petru Bantis",
+      "description": "The main developer BIT.TEAM project. Development experience 5 years"
+    },
+    "member6": {
+      "specialization": "Management",
+      "name": "Leonova Anastasia",
+      "description": "REU named after Plekhanov Faculty of Management and Entrepreneurship 'Digital Economy: Issue and Circulation of Crypto-Currency' Department"
+    },
+    "member7": {
+      "specialization": "Project manager",
+      "name": "Robert Kononenko",
+      "description": "partnership, company representative in Shenzhen (China)"
     }
   },
   "advisors": {
-    "title": "ADVISORS"
+    "title": "ADVISORS",
+    "member1": {
+      "specialization": "ADVISER",
+      "name": "Bolobonova Maria",
+      "description": "Teacher of the Department of Entrepreneurial Law at the Urals State University, Head of legal department of the Ural Blockchain Association"
+    },
+    "member2": {
+      "specialization": "ADVISER",
+      "name": "Surova Nadezhda",
+      "description": "Director of the Institute of Management and Socio - Economic Planning of the FSBBO VO \"Plekhanov Russian Economic University\", Candidate of Economic Sciences Member of the Expert Council of the State Duma for Digital Economy and Block Technologies, Member of the Scientific and Expert Council of the Council of Federation of the Federal Assembly of the Russian Federation, Chairman of the Management Board of the Association of Management Personnel"
+    },
+    "member3": {
+      "specialization": "CEO Whalesburg",
+      "name": "Evgeny Kitkin",
+      "description": "Whalesburg is first automated solution that makes enterprise mining tools available for everyone"
+    },
+    "member4": {
+      "specialization": "CEO Bitbaza",
+      "name": "Artem Zverev",
+      "description": "Bitbaza - Manufacturer and supplier of mining equipment"
+    },
+    "member5": {
+      "specialization": "Advisor",
+      "name": "Efremov Evgeniy",
+      "description": "Microsoft Advisor"
+    },
+    "member6": {
+      "specialization": "Advisor Bit.team",
+      "name": "Gary Baiton",
+      "description": "Senior Advisor @IBC Group, Senior Advisor @Crypto Lawyers, Angel/Crypto Investor"
+    },
+    "member7": {
+      "specialization": "Asia Advisor Bit.team",
+      "name": "David D",
+      "description": "Silicon blockchain 硅谷区块链"
+    },
+    "member8": {
+      "specialization": "Account Manager",
+      "name": "Vladimir Burik",
+      "description": "Account Manager"
+    },
+    "member9": {
+      "specialization": "CEO of MIOT",
+      "name": "Prof Simon Choi",
+      "description": "China, solicitor and linguist, is an international lawyer, qualified to practise law in England & Wales and in Hong Kong, China. Simon graduated from law schools of the Peking University, the University of London and the University of Hong Kong respectively, with an in-depth knowledge of Chinese laws and common laws and with more than 20 years experience in China practice and international trade, investment, finance, merger & acquisition"
+    }
   },
   "partners": {
     "title": "PARTNERS"
