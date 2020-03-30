@@ -47,7 +47,9 @@ const ColPromo = styled.div`
   }
 `
 const LeftButton = styled(Button)`
-  margin-right: 24px;
+  @media (min-width: ${SCREEN_SIZES.MEDIUM}) {
+    margin-right: 24px;
+  }
   @media (max-width: ${SCREEN_SIZES.MEDIUM}) {
     margin-bottom: 16px;
   }
