@@ -51,8 +51,8 @@ function Faq() {
 
               return (
                 <>
-                  {SPOILERS.map(spoilersPair => (
-                    <SpoilersPair key={spoilersPair[0].title}>
+                  {SPOILERS.map((spoilersPair, index) => (
+                    <SpoilersPair key={index}>
                       {spoilersPair.map(spoiler => (
                         <Spoiler key={spoiler.title} item={spoiler} />
                       ))}
