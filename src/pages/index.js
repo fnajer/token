@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 import Promo from 'modules/Promo';
 import Peer from 'modules/Peer';
@@ -23,7 +23,11 @@ const IndexPage = () => (
   <Layout> 
     {(lang, setLang) => (
       <>
-        <SEO title="Home" />
+        <SEO 
+          lang={lang.name.toLowerCase()} 
+          title={'seo.title'} 
+          description={'seo.description'} 
+        />
         <main>
           <Promo activeLang={lang} changeLang={setLang} /> 
           <Peer />
@@ -43,4 +47,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage
+export default IndexPage;

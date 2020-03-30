@@ -9,8 +9,9 @@ import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
+import { injectIntl } from 'react-intl';
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description, lang, meta, title, intl }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -25,15 +26,16 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
-
+  const metaTitle = intl.formatMessage({ id: title });
+  const metaDescription = description ? intl.formatMessage({ id: description }) : site.siteMetadata.description
+  
   return (
     <Helmet
       htmlAttributes={{
         lang,
       }}
-      title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={metaTitle}
+      titleTemplate={`%s`}
       meta={[
         {
           name: `description`,
@@ -41,7 +43,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -61,7 +63,7 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           name: `twitter:description`,
@@ -85,4 +87,4 @@ SEO.propTypes = {
   title: PropTypes.string.isRequired,
 }
 
-export default SEO
+export default injectIntl(SEO);
