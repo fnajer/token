@@ -95,7 +95,7 @@ export default [
         position: <FormattedMessage id="advisors.member1.specialization" />,
         name: <FormattedMessage id="advisors.member1.name" />,
         description: <FormattedMessage id="advisors.member1.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://www.linkedin.com/in/maria-bolobonova-5615b5166/',
       },
       {
         image: SurovaPhoto,
@@ -103,7 +103,7 @@ export default [
         position: <FormattedMessage id="advisors.member2.specialization" />,
         name: <FormattedMessage id="advisors.member2.name" />,
         description: <FormattedMessage id="advisors.member2.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: EvgenyPhoto,
@@ -111,7 +111,7 @@ export default [
         position: <FormattedMessage id="advisors.member3.specialization" />,
         name: <FormattedMessage id="advisors.member3.name" />,
         description: <FormattedMessage id="advisors.member3.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: ArtyomPhoto,
@@ -119,7 +119,7 @@ export default [
         position: <FormattedMessage id="advisors.member4.specialization" />,
         name: <FormattedMessage id="advisors.member4.name" />,
         description: <FormattedMessage id="advisors.member4.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: EfremovPhoto,
@@ -127,7 +127,7 @@ export default [
         position: <FormattedMessage id="advisors.member5.specialization" />,
         name: <FormattedMessage id="advisors.member5.name" />,
         description: <FormattedMessage id="advisors.member5.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: GaryPhoto,
@@ -135,7 +135,7 @@ export default [
         position: <FormattedMessage id="advisors.member6.specialization" />,
         name: <FormattedMessage id="advisors.member6.name" />,
         description: <FormattedMessage id="advisors.member6.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://www.linkedin.com/in/garybaiton/',
       },
       {
         image: DavidPhoto,
@@ -143,7 +143,7 @@ export default [
         position: <FormattedMessage id="advisors.member7.specialization" />,
         name: <FormattedMessage id="advisors.member7.name" />,
         description: <FormattedMessage id="advisors.member7.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://www.linkedin.com/in/david-d-739713158/',
       },
       {
         image: VladimirPhoto,
@@ -151,7 +151,7 @@ export default [
         position: <FormattedMessage id="advisors.member8.specialization" />,
         name: <FormattedMessage id="advisors.member8.name" />,
         description: <FormattedMessage id="advisors.member8.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: SimonPhoto,
@@ -159,7 +159,7 @@ export default [
         position: <FormattedMessage id="advisors.member9.specialization" />,
         name: <FormattedMessage id="advisors.member9.name" />,
         description: <FormattedMessage id="advisors.member9.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
     ]
   }
