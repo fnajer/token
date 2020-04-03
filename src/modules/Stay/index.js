@@ -126,7 +126,7 @@ function Stay() {
             <SubHeading>
               <FormattedMessage id="stay.subtitle" />
             </SubHeading>
-            <Heading theme={themes.LIGHT}>
+            <Heading theme={themes.LIGHT} id="contacts">
               <FormattedMessage id="main.title" />
             </Heading>
             <Text theme={themes.LIGHT}>

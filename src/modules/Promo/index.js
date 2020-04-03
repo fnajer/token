@@ -66,7 +66,7 @@ function Promo({ activeLang, changeLang }) {
       <PromoContainer>
         <Row>
           <ColPromo>
-            <Heading theme={themes.LIGHT}>
+            <Heading theme={themes.LIGHT} id="home">
               <FormattedMessage id="main.title" />
             </Heading>
             <Text theme={themes.LIGHT}>

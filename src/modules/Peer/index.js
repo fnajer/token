@@ -38,8 +38,8 @@ function Peer() {
       <Container>
         <Row>
           <ColPeer>
-            <Heading theme={themes.DARK}>
-              <FormattedMessage id="peer.title" />
+            <Heading theme={themes.DARK} id="p2p">
+              <FormattedMessage id="peer.title"/>
             </Heading>
             <Text theme={themes.DARK}>
               <FormattedMessage id="peer.description" />

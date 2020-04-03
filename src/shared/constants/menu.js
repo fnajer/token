@@ -16,6 +16,53 @@ export const headerMenuLinks = [
   },
 ];
 
+export const footerMenuLinks = [
+  {
+    name: <FormattedMessage id="footer.menu.home" />,
+    url: "#home",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.marketplace" />,
+    url: "#marketplace",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.solutions" />,
+    url: "#solutions",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.howItWorks" />,
+    url: "https://drive.google.com/open?id=1U_BhoINY7-rLJVzQb5tggrR8acN2BO9r",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.case" />,
+    url: "#case",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.p2p" />,
+    url: "#p2p",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.platform" />,
+    url: "#platform",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.team" />,
+    url: "#team",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.partners" />,
+    url: "#partners",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.faq" />,
+    url: "#faq",
+  },
+  {
+    name: <FormattedMessage id="footer.menu.contacts" />,
+    url: "#contacts",
+  },
+];
+
 export const footerMenuLinksExtra = [
   {
     name: <FormattedMessage id="footer.menuExtra.terms" />,

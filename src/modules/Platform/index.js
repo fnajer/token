@@ -40,7 +40,7 @@ function Platform() {
       <Container>
         <Row>
           <ColPlatform>
-            <Heading theme={themes.DARK}>
+            <Heading theme={themes.DARK} id="platform">
               <FormattedMessage id="platform.title" />
             </Heading>
             <Text theme={themes.DARK}>

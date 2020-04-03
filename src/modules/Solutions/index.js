@@ -40,7 +40,7 @@ function Solutions() {
   return (
     <Container>
       <Row>
-        <Heading theme={themes.DARK}>
+        <Heading theme={themes.DARK} id="solutions">
           <FormattedMessage id="solutions.title" />
         </Heading>
         <Tabs 

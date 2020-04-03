@@ -18,7 +18,7 @@ function Partners() {
   const [activeTab, setTab] = useState(PARTNERS[0])
 
   return (
-    <Container>
+    <Container id="partners">
       <Tabs 
         activeTab={activeTab} 
         setTab={setTab} 

@@ -31,7 +31,7 @@ const SpoilersPair = styled.div`
 function Faq() {
   return (
     <Container>
-      <Heading theme={themes.DARK}>
+      <Heading theme={themes.DARK} id="faq">
         <FormattedMessage id="faq.title" />
       </Heading>
       <Row>

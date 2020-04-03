@@ -33,7 +33,7 @@ function Case() {
     <Container>
       <Row>
         <Col>
-          <Heading theme={themes.DARK}>
+          <Heading theme={themes.DARK} id="case">
             <FormattedMessage id="cases.title" />
           </Heading>
           <Cards>

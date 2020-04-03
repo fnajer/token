@@ -18,7 +18,7 @@ function Team() {
   const [activeTab, setTab] = useState(PERSONS[0])
 
   return (
-    <Container>
+    <Container id="team">
       <Tabs 
         activeTab={activeTab} 
         setTab={setTab} 

@@ -63,8 +63,8 @@ function Marketplace({ intl }) {
             </iframe>
           </Col>
           <ColPromoPart>
-            <Heading theme={themes.DARK}>
-              <FormattedMessage id="marketplace.title" />
+            <Heading theme={themes.DARK} id="marketplace">
+              <FormattedMessage id="marketplace.title"/>
             </Heading>
             <Text theme={themes.DARK}>
               <FormattedMessage id="marketplace.description" />
