@@ -8,7 +8,7 @@ export default function MobileMenu(props) {
   return (
     <ul {...restProps} className={`mobile-menu ${className}`}>
       {items.map(item => (
-        <li><a>{item}</a></li>
+        <li><a href={item.url}>{item.name}</a></li>
       ))}
     </ul>
   )

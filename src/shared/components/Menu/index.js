@@ -19,7 +19,7 @@ export default function Menu(props) {
   return (
     <ul {...restProps} className={`menu ${classes}`}>
       {items.map(item => (
-        <li><a>{item}</a></li>
+        <li><a href={item.url}>{item.name}</a></li>
       ))}
     </ul>
   )
