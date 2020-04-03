@@ -15,10 +15,11 @@ export default function Button(props) {
   const {children, className, theme, ...restProps} = props
   const classes = mapThemeToClass(className, theme)
 
+  const Tag = props.href ? 'a' : 'button'
   return (
-    <button {...restProps} className={`button ${classes}`}>
+    <Tag {...restProps} className={`button ${classes}`}>
       {children}
-    </button>
+    </Tag>
   )
 }
 Button.propTypes = {

@@ -37,10 +37,10 @@ class Header extends Component {
             activeLang={this.props.activeLang} 
             changeLang={this.props.changeLang} 
           />
-          <LeftButton theme={themes.LIGHT}>
+          <LeftButton theme={themes.LIGHT} href="https://market.bit.team/">
             <FormattedMessage id="header.buttons.market" />
           </LeftButton>
-          <Button theme={themes.LIGHT}>
+          <Button theme={themes.LIGHT} href="https://bit.team/">
             <FormattedMessage id="header.buttons.exchange" />
           </Button>
         </RightSide>
