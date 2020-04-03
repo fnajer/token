@@ -69,7 +69,7 @@ function Marketplace({ intl }) {
             <Text theme={themes.DARK}>
               <FormattedMessage id="marketplace.description" />
             </Text>
-            <Button theme={themes.BLUE}>
+            <Button theme={themes.BLUE} href="https://market.bit.team/">
               <FormattedMessage id="marketplace.buttons.invest" />
             </Button>
           </ColPromoPart>
