@@ -49,25 +49,39 @@ class Social extends Component {
     return (
       <SocialList>
         <li>
-          <TelegramIcon />
+          <a href="https://t-do.ru/bitteaminfo">
+            <TelegramIcon />
+          </a>
         </li>
         <li>
-          <BitcoinIcon />
+          <a href="https://forum.bits.media/index.php?/topic/86594-annitobitteam-market-place-%D1%81%D1%82%D0%B0%D0%BD%D1%8C-%D1%87%D0%B0%D1%81%D1%82%D1%8C%D1%8E-%D0%B1%D1%83%D0%B4%D1%83%D1%89%D0%B5%D0%B3%D0%BE/">
+            <BitcoinIcon />
+          </a>
         </li>
         <li>
-          <FacebookIcon />
+          <a href="https://www.facebook.com/token.bit.team/">
+            <FacebookIcon />
+          </a>
         </li>
         <li>
-         <GithubIcon />
+          <a href="">
+            <GithubIcon />
+          </a>
         </li>
         <li>
-          <InstagramIcon />
+          <a href="https://www.linkedin.com/company/bit-team-marketplace/">
+            <InstagramIcon />
+          </a>
         </li>
         <li>
-          <YoutubeIcon />
+          <a href="https://www.youtube.com/channel/UC2cHTnl8OhsKGXIiZngn6gA">
+            <YoutubeIcon />
+          </a>
         </li>
         <li>
-          <TwitterIcon />
+          <a href="https://twitter.com/Bitteam_ico">
+            <TwitterIcon />
+          </a>
         </li>
       </SocialList>
     )
