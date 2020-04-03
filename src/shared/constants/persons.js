@@ -33,7 +33,7 @@ export default [
         position: <FormattedMessage id="team.member1.specialization" />,
         name: <FormattedMessage id="team.member1.name" />,
         description: <FormattedMessage id="team.member1.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://www.linkedin.com/in/anatoliy-berdnikov/',
       },
       {
         image: MargaritaPhoto,
@@ -41,7 +41,7 @@ export default [
         position: <FormattedMessage id="team.member2.specialization" />,
         name: <FormattedMessage id="team.member2.name" />,
         description: <FormattedMessage id="team.member2.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: DmitryPhoto,
@@ -49,7 +49,7 @@ export default [
         position: <FormattedMessage id="team.member3.specialization" />,
         name: <FormattedMessage id="team.member3.name" />,
         description: <FormattedMessage id="team.member3.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://www.linkedin.com/in/dmitriy-stepanov-002a2a149/',
       },
       {
         image: NikitaPhoto,
@@ -57,7 +57,7 @@ export default [
         position: <FormattedMessage id="team.member4.specialization" />,
         name: <FormattedMessage id="team.member4.name" />,
         description: <FormattedMessage id="team.member4.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://cz.linkedin.com/in/veremeev',
       },
       {
         image: PetruPhoto,
@@ -65,7 +65,7 @@ export default [
         position: <FormattedMessage id="team.member5.specialization" />,
         name: <FormattedMessage id="team.member5.name" />,
         description: <FormattedMessage id="team.member5.description" />,
-        instagram: 'https://instagram.com',
+        instagram: 'https://www.linkedin.com/in/petru-bantis-4a50b577/',
       },
       {
         image: LeonovaPhoto,
@@ -73,7 +73,7 @@ export default [
         position: <FormattedMessage id="team.member6.specialization" />,
         name: <FormattedMessage id="team.member6.name" />,
         description: <FormattedMessage id="team.member6.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       {
         image: RobertPhoto,
@@ -81,7 +81,7 @@ export default [
         position: <FormattedMessage id="team.member7.specialization" />,
         name: <FormattedMessage id="team.member7.name" />,
         description: <FormattedMessage id="team.member7.description" />,
-        instagram: 'https://instagram.com',
+        instagram: '',
       },
       
     ]

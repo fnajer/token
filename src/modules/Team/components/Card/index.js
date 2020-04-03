@@ -69,7 +69,7 @@ function Card({ item, mobile, ...restProps }) {
       <Photo mobile={mobile} src={mobile ? item.imageMobile : item.image} />
       <Row mobile={mobile} margin={true}>
         <PersonPosition>{item.position}</PersonPosition>
-        <InstagramIcon withParent="a" href={item.instagram} bgColor="#0c66c2" />
+        {item.instagram && <InstagramIcon withParent="a" href={item.instagram} bgColor="#0c66c2" />}
       </Row>
       <Heading theme={themes.DARK} size={mobile ? headingSizes.SMALL : headingSizes.MEDIUM}>{item.name}</Heading>
       <Row flexColumn={true}>
