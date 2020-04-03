@@ -152,10 +152,10 @@ function Stay() {
                 <FormattedMessage id="stay.addresses.addressBlock2.address" />
               </AddressParagraph>
             </Address>
-            <LeftButton theme={themes.BLUE}>
-              <FormattedMessage id="shared.buttons.join" />
+            <LeftButton theme={themes.BLUE} href="https://bit.team/">
+              <FormattedMessage id="shared.buttons.join"/>
             </LeftButton>
-            <Button theme={themes.LIGHT}>
+            <Button theme={themes.LIGHT} href="https://drive.google.com/open?id=1U_BhoINY7-rLJVzQb5tggrR8acN2BO9r">
               <FormattedMessage id="shared.buttons.read" />
             </Button>
           </ColAdresses>
