@@ -72,10 +72,10 @@ function Promo({ activeLang, changeLang }) {
             <Text theme={themes.LIGHT}>
               <FormattedMessage id="main.description" />
             </Text>
-            <LeftButton theme={themes.LIGHT}>
+            <LeftButton theme={themes.LIGHT} href="https://bit.team/">
               <FormattedMessage id="shared.buttons.join" />
             </LeftButton>
-            <Button theme={themes.BLUE}>
+            <Button theme={themes.BLUE} href="https://drive.google.com/open?id=1U_BhoINY7-rLJVzQb5tggrR8acN2BO9r">
               <FormattedMessage id="shared.buttons.read" />
             </Button>
           </ColPromo>
