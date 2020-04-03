@@ -83,10 +83,12 @@ function What() {
               <FormattedMessage id="what.description" />
             </Text>
             <LinkBlock>
-              <Link><FacebookIcon withParent={IconCircle} bgColor="#1877f2" />
+              <Link>
+                <FacebookIcon withParent={IconCircle} bgColor="#1877f2" />
                 <FormattedMessage id="what.buttons.facebook" />
               </Link>
-              <Link><TelegramIcon withParent={IconCircle} bgColor="#2ca5e0" />
+              <Link href="https://t.me/s/Tgram">
+                <TelegramIcon withParent={IconCircle} bgColor="#2ca5e0" />
                 <FormattedMessage id="what.buttons.telegram" />
               </Link>
             </LinkBlock>
