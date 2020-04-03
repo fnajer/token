@@ -8,7 +8,7 @@ import LanguageView from '../LanguageView';
 import LanguageSelectorMobile from 'shared/components/LanguageSelector/mobile'
 
 import * as themes from 'shared/constants/themes'
-import headerMenuItems from 'shared/constants/headerMenu'
+import { headerMenuLinks } from 'shared/constants/menu'
 import './styles.scss'
 
 const TopButton = styled(Button)`
@@ -29,7 +29,7 @@ class Header extends Component {
     return (
       <div className="mobile-header">
         <div className={`mobile-header__body ${this.props.opened && !this.state.langIsOpen ? 'menu-open' : 'menu-close'}`}>
-          <MobileMenu items={headerMenuItems} />
+          <MobileMenu items={headerMenuLinks} />
           <LanguageView 
             activeLang={this.props.activeLang}
             toggleMenu={this.openLangMenu}

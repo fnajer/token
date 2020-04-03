@@ -12,7 +12,7 @@ import LanguageSelectorBase from 'shared/components/LanguageSelector'
 
 import * as positions from 'shared/constants/positions'
 import * as SCREEN_SIZES from 'shared/constants/screenSizes';
-import LANGS from 'shared/constants/langs';
+import { footerMenuLinksExtra } from 'shared/constants/menu'
 
 const FooterContainer = styled(Container)`
   padding-bottom: 0;
@@ -112,12 +112,7 @@ class FooterComponent extends React.Component {
           </span>
           <Menu 
             position={positions.FOOTER_EXTRA}
-            items={[
-              <FormattedMessage id="footer.menuExtra.terms" />, 
-              <FormattedMessage id="footer.menuExtra.policy" />,
-              <FormattedMessage id="footer.menuExtra.sales" />, 
-              <FormattedMessage id="footer.menuExtra.legal" />,
-            ]}
+            items={footerMenuLinksExtra}
           />
           <Made>
             <FormattedMessage id="footer.madeBy" />

@@ -9,7 +9,7 @@ import LanguageSelectorBase from 'shared/components/LanguageSelector'
 
 import * as positions from 'shared/constants/positions'
 import * as themes from 'shared/constants/themes'
-import headerMenuItems from 'shared/constants/headerMenu'
+import { headerMenuLinks } from 'shared/constants/menu'
 
 const RightSide = styled.div`
   display: flex;
@@ -30,7 +30,7 @@ class Header extends Component {
         <RightSide>
           <Menu 
             position={positions.HEADER}
-            items={headerMenuItems}
+            items={headerMenuLinks}
           />
           <LanguageSelector 
             withNames={true}
