@@ -49,6 +49,58 @@ steps:
       # to reset DNS cache for proxied containers
 #     - docker-compose up -d --force-recreate nginx
 
+- name: build and push PROD image
+  <<: *base-job-config
+  when:
+    branch:
+      - master
+  environment:
+    TAG: production
+  commands:
+    - echo "$DOCKER_PASSWORD" | docker login --username "$DOCKER_USERNAME" --password-stdin dregistry.wallbtc.com
+    - docker build --build-arg NODE_ENV=dev -t dregistry.wallbtc.com/bitteam/token.bit.team:$TAG .
+    - docker push dregistry.wallbtc.com/bitteam/token.bit.team:$TAG
+
+- name: performing PROD server1 update
+  image: appleboy/drone-ssh:1.5.5
+  when:
+    branch:
+      - master
+  settings:
+    host: 192.168.74.23
+    port: 22
+    username: deploy
+    key:
+      from_secret: deploy_ssh_key
+    script:
+      - cd token.bit.team
+#     - git pull
+      - docker-compose pull
+      - docker-compose up -d
+      # we need force nginx to be recreated
+      # to reset DNS cache for proxied containers
+#     - docker-compose up -d --force-recreate nginx
+
+- name: performing PROD server2 update
+  image: appleboy/drone-ssh:1.5.5
+  when:
+    branch:
+      - master
+  settings:
+    host: 192.168.74.27
+    port: 22
+    username: deploy
+    key:
+      from_secret: deploy_ssh_key
+    script:
+      - cd token.bit.team
+#     - git pull
+      - docker-compose pull
+      - docker-compose up -d
+      # we need force nginx to be recreated
+      # to reset DNS cache for proxied containers
+#     - docker-compose up -d --force-recreate nginx
+
 volumes:
 - name: dockersock
   host:
