@@ -73,7 +73,7 @@ steps:
     key:
       from_secret: deploy_ssh_key
     script:
-      - cd token.bit.team
+      - cd docker/token.bit.team
 #     - git pull
       - docker-compose pull
       - docker-compose up -d
@@ -93,7 +93,7 @@ steps:
     key:
       from_secret: deploy_ssh_key
     script:
-      - cd token.bit.team
+      - cd docker/token.bit.team
 #     - git pull
       - docker-compose pull
       - docker-compose up -d
