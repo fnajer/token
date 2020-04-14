@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { ScreenClassRender } from 'react-grid-system'
 import { FormattedMessage } from 'react-intl';
+import MediaQuery from 'react-responsive'
 
 import { Container } from 'shared/layout/Container';
 import Heading from 'shared/components/Heading';
