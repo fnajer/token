@@ -91,9 +91,9 @@ function Card({ activeTab }) {
       <CardHeader>
         <ScreenClassRender
           render={screenClass => {
-            if (screenClass === 'xs' || screenClass === 'sm' || screenClass === 'md')
-              return <Solutions mobile={true} />
-            return <Solutions mobile={false} />
+            if (screenClass === 'xl' || screenClass === 'lg')
+              return <Solutions mobile={false} />
+            return <Solutions mobile={true} />
           }}
         />
         <RoleIcon />
