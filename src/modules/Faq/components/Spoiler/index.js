@@ -7,6 +7,7 @@ import PlusIcon from 'shared/icons/plus.svg';
 import MinusIcon from 'shared/icons/minus.svg';
 
 const Spoiler = styled.div`
+  width: 100%;
   padding: 24px;
   border-radius: 12px;
   box-shadow: 0 8px 8px -4px rgba(20, 16, 41, 0.06), 0 2px 4px -1px rgba(20, 16, 41, 0.06), 0 0 1px 0 rgba(20, 16, 41, 0.12);
