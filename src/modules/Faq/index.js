@@ -29,13 +29,30 @@ const SpoilersPair = styled.div`
 `
 
 function Faq() {
+  console.log(12323425);
   return (
     <Container>
       <Heading theme={themes.DARK} id="faq">
         <FormattedMessage id="faq.title" />
       </Heading>
       <Row>
-        <ScreenClassRender
+        <MediaQuery maxWidth={1024}>
+          {SPOILERS.map(spoilersPair => (
+            spoilersPair.map(spoiler => (
+              <Spoiler key={spoiler.title} item={spoiler} />
+            ))
+          ))}
+        </MediaQuery>
+        <MediaQuery minWidth={1024}>
+          {SPOILERS.map((spoilersPair, index) => (
+            <SpoilersPair key={index}>
+              {spoilersPair.map(spoiler => (
+                <Spoiler key={spoiler.title} item={spoiler} />
+              ))}
+            </SpoilersPair>
+          ))}
+        </MediaQuery>
+        {/* <ScreenClassRender
             render={screenClass => {
               if (['xs', 'sm', 'md'].includes(screenClass)) {
                 return (
@@ -61,7 +78,7 @@ function Faq() {
                 </>
               )
             }}
-          />
+          /> */}
       </Row>
     </Container>
   );
