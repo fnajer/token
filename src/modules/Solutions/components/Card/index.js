@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import { ScreenClassRender } from 'react-grid-system'
+import MediaQuery from 'react-responsive'
 
 import Heading from 'shared/components/Heading';
 
@@ -89,13 +90,19 @@ function Card({ activeTab }) {
   return (
     <CardWrapper>
       <CardHeader>
-        <ScreenClassRender
+        <MediaQuery maxWidth={1024}>
+          <Solutions mobile={true} />
+        </MediaQuery>
+        <MediaQuery minWidth={1024}>
+          <Solutions mobile={false} />
+        </MediaQuery>
+        {/* <ScreenClassRender
           render={screenClass => {
             if (['xl', 'lg'].includes(screenClass))
               return <Solutions mobile={false} />
             return <Solutions mobile={true} />
           }}
-        />
+        /> */}
         <RoleIcon />
       </CardHeader>
       <CardBody>

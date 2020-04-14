@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components';
 import { ScreenClassRender } from 'react-grid-system';
+import MediaQuery from 'react-responsive'
 
 import { Container } from 'shared/layout/Container';
 
@@ -44,7 +45,19 @@ class HeaderComponent extends React.Component {
     return (
       <Header>
       <HeaderContainer>
-        <ScreenClassRender
+        <MediaQuery maxWidth={1024}>
+          <MobileHeaderSide 
+            activeLang={this.props.activeLang} 
+            changeLang={this.props.changeLang} 
+          />
+        </MediaQuery>
+        <MediaQuery minWidth={1024}>
+          <DesktopHeaderSide 
+            activeLang={this.props.activeLang} 
+            changeLang={this.props.changeLang} 
+          />
+        </MediaQuery>
+        {/* <ScreenClassRender
           render={screenClass => {
             console.log(screenClass)
             if (['xs', 'sm', 'md'].includes(screenClass)) {
@@ -63,7 +76,7 @@ class HeaderComponent extends React.Component {
               />
             )
           }}
-        />
+        /> */}
       </HeaderContainer>
     </Header>
     )

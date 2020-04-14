@@ -30,7 +30,6 @@ const SpoilersPair = styled.div`
 `
 
 function Faq() {
-  console.log(12323425);
   return (
     <Container>
       <Heading theme={themes.DARK} id="faq">
