@@ -91,7 +91,7 @@ function Card({ activeTab }) {
       <CardHeader>
         <ScreenClassRender
           render={screenClass => {
-            if (screenClass === 'xl' || screenClass === 'lg')
+            if (['xl', 'lg'].includes(screenClass))
               return <Solutions mobile={false} />
             return <Solutions mobile={true} />
           }}

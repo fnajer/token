@@ -15,7 +15,7 @@ const TopButton = styled(Button)`
   margin-bottom: 4px;
 `
 
-class Header extends Component {
+class MobileMenuComponent extends Component {
   state = {
     langIsOpen: false
   }
@@ -52,4 +52,4 @@ class Header extends Component {
   }
 }
 
-export default Header
+export default MobileMenuComponent

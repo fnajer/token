@@ -47,7 +47,7 @@ class HeaderComponent extends React.Component {
         <ScreenClassRender
           render={screenClass => {
             console.log(screenClass)
-            if (screenClass === 'xs' || screenClass === 'sm' || screenClass === 'md') {
+            if (['xs', 'sm', 'md'].includes(screenClass)) {
               return (
                 <MobileHeaderSide 
                   activeLang={this.props.activeLang} 

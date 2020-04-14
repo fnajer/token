@@ -37,7 +37,7 @@ function Faq() {
       <Row>
         <ScreenClassRender
             render={screenClass => {
-              if (screenClass === 'xs' || screenClass === 'sm' || screenClass === 'md') {
+              if (['xs', 'sm', 'md'].includes(screenClass)) {
                 return (
                   <>
                     {SPOILERS.map(spoilersPair => (
